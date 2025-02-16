@@ -1,0 +1,13 @@
+Convert data to COCO format
+
+Step 1 >> Go to data directory, Open GitBash
+       >> In GitBash, install pip3 install labelImg
+
+Step 2 >> Type, labelImg --> Press enter
+
+Step 3 >> Once you done annotating, keep all the annotation XML files in one seperate folder "annotation".
+
+Step 4 >> Be in the same data directory and run the voc2coco.py file to conert all annotation to COCO format.
+
+Step 5 >> Run: python voc2coco.py annotations output.json
+
